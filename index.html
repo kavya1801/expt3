@@ -1,0 +1,656 @@
+<!DOCTYPE html PUBLIC >
+<html >
+  <title>
+    BuildingGreen
+  </title>
+<head >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="BuildingGreen RSS" href="https://www.buildinggreen.com/rss.xml" />
+<link rel="shortcut icon" href="https://www.buildinggreen.com/sites/default/files/favicon_2.ico" type="image/vnd.microsoft.icon" />
+<link rel="stylesheet" href="one.css"/>
+<link rel="stylesheet" href="two.css"/>
+<link rel="stylesheet" href="three.css"/>
+<link rel="stylesheet" href="four.css"/>
+<link rel="stylesheet" href="five.css"/>
+<link rel="stylesheet" href="six.css"/>
+<link rel="stylesheet" href="https://use.typekit.net/tfo1vjd.css">
+  <link rel="stylesheet" href="/sites/all/libraries/bg-icons/css/bg-icons.css">
+</head>
+<body class="html front not-logged-in no-sidebars page-node domain-www-buildinggreen-com i18n-en"   data-ng-app="bgApp">
+<div id="skip-link">
+  <a href="#" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<div class="modal fade" id="login-modal" role="dialog" aria-labelledby="modalLoginLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      <h4 class="modal-title" id="modalLoginLabel">Log in</h4>
+    </div>
+    <div class="modal-body">
+         <div class="progress" style="display:none;">
+             
+                 <div class="progress-bar progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                   Loading...
+                 </div>
+              </div>
+                  <div class="login-form" data-ng-show="!show_request_password_form">
+            <form action="/" method="post" id="user-login" accept-charset="UTF-8"><div><div class="form-item form-item-name form-type-emailfield form-group"> <label class="control-label" for="edit-name">Username or e-mail address <span class="form-required" title="This field is required.">*</span></label>
+<input class="form-control form-text form-email required" type="email" id="edit-name" name="name" value="" size="60" maxlength="60" /><div class="help-block">You may login with either your assigned username or your e-mail address.</div></div><div class="form-item form-item-pass form-type-password form-group"> <label class="control-label" for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+<input class="form-control form-text required" type="password" id="edit-pass" name="pass" size="60" maxlength="128" /><div class="help-block">The password field is case sensitive.</div></div><input type="hidden" name="form_build_id" value="form-Pagy2XHFX4RNg_I-mZp33epj4UqiDs2hX0T7gQVrwY4" />
+<input type="hidden" name="form_id" value="user_login" />
+<div class="form-actions form-wrapper form-group" id="edit-actions--5"><button type="submit" id="edit-submit--5" name="op" value="Log in" class="btn btn-primary form-submit icon-before"><span class="icon glyphicon glyphicon-log-in" aria-hidden="true"></span>
+Log in</button>
+</div></div></form>      		<p class="margin-top">
+                <a href="" data-ng-click="show_request_password_form = true">Forgot password?</a>
+            </p>
+        </div>
+        <div class="request-password-form" data-ng-show="show_request_password_form">
+            <form action="/" method="post" id="user-pass" accept-charset="UTF-8"><div><div class="form-item form-item-name form-type-textfield form-group"> <label class="control-label" for="edit-name--2">E-mail <span class="form-required" title="This field is required.">*</span></label>
+<input class="form-control form-text required" type="text" id="edit-name--2" name="name" value="" size="60" maxlength="254" /></div><input type="hidden" name="form_build_id" value="form-dTIQybyNvUSQ86NMHIvZJmcDZJJV0z7IvAGtJqfrHRQ" />
+<input type="hidden" name="form_id" value="user_pass" />
+<div class="form-actions form-wrapper form-group" id="edit-actions--6"><button type="submit" id="edit-submit--6" name="op" value="E-mail new password" class="btn btn-default form-submit">E-mail new password</button>
+</div></div></form>      		<a href="" data-ng-click="show_request_password_form = false">Log in</a>
+        </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+</div> 
+<div class="modal fade" id="group-link-modal" role="dialog" aria-labelledby="modalGroupLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      <h4 class="modal-title" id="modalGroupLabel">Firm or campus member?</h4>
+    </div>
+    <div class="modal-body">       
+                   Please log in using your personal profile:<br>
+             <a class="margin-top btn btn-neutral" href="#" data-toggle="modal" data-target="#login-modal" data-dismiss="modal">Log in &raquo;</a>
+            &nbsp; <a class="margin-top btn btn-warning" href="#">Create personal profile &raquo;</a>
+              </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+</div>
+<div class="modal fade" id="feedback-modal" role="dialog" aria-labelledby="modalFeedbackLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      <h4 class="modal-title" id="modalFeedbackLabel">How can we serve you better?</h4>
+    </div>
+    <div class="modal-body">       
+      <form class="sans-serif" action="/" method="post" id="bg-content-feedback-form" accept-charset="UTF-8"><div><div class="form-item form-item-email form-type-emailfield form-group"> <label class="control-label" for="edit-email">Email <span class="form-required" title="This field is required.">*</span></label>
+<input placeholder="Enter your email address" class="form-control form-text form-email required" type="email" id="edit-email" name="email" value="" size="60" maxlength="128" /></div><div class="form-item form-item-message form-type-textarea form-group"> <label class="control-label" for="edit-message">Message <span class="form-required" title="This field is required.">*</span></label>
+<div class="form-textarea-wrapper resizable"><textarea placeholder="Enter your feedback here" class="form-control form-textarea required" id="edit-message" name="message" cols="60" rows="5"></textarea></div></div><input type="hidden" name="uri" value="https://www.buildinggreen.com/" />
+<input type="hidden" name="quiz_question" value="" />
+<div class="captcha"><input type="hidden" name="captcha_sid" value="61374365" />
+<input type="hidden" name="captcha_token" value="d5b9ac2ed98a95496370e963bf75286b" />
+<input type="hidden" name="captcha_response" value="Google no captcha" />
+<div class="g-recaptcha" data-sitekey="6Lfjzl0UAAAAAASqaaLuzYDjz14l8VNCr2AG7NSQ" data-theme="light" data-type="image"></div></div><button class="btn-success btn-lg btn form-submit" type="submit" id="edit-submit--7" name="op" value="Submit &amp;raquo;">Submit &raquo;</button>
+<input type="hidden" name="form_build_id" value="form-EPVUTx70pXfF5q3e_wwQPRG8HYsPP-6WvcDT5rpRASw" />
+<input type="hidden" name="form_id" value="bg_content_feedback_form" />
+</div></form>      </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<buy-error></buy-error>
+<div id="desktop-header">
+  <div id="login-bar" data-ng-controller="loginCtrl" class="hidden-xs">
+      <nav class="navbar navbar-inverse">
+            <div style="padding-left: 10px;">
+                                  <span class="navbar-left since hidden-xs hidden-sm hidden-md">SINCE 1985</span>
+              
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Webinars</a></li>
+                  <li><a href="#">Exam Prep</a></li>
+                  <li><a href="#">Reports</a></li>
+                  <li><a href="#">Manufacturers</a></li>
+                  <li><a href="#">Archive</a></li>
+                  <li><a href="#">FAQ</a></li>
+                <li class="login"><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
+                          
+              </ul>    
+            </div>
+      </nav>
+  </div>
+<div class="hidden-xs front-top" style="padding: 20px 5px 10px 0;">
+  <div class="container-fluid">
+      <div class="logo-status">
+        <img src="pic/bg-logo_web-large.png" >
+            </div>
+  </div>
+</div>
+
+
+</div>
+
+<div class="solid-menus" id="solidMenus" style="padding: 0;">
+
+  <nav class="navbar navbar-default navbar-static-top no-border-radius navbar-hover">
+
+      <div class="container-fluid" id="navbar-inner-container">
+
+        
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle navbar-toggle-right collapsed" data-toggle="collapse" data-target="#solidMenu">
+            <span>MENU</span>
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button>
+
+          <a class="navbar-brand visible-xs-block" href="#"><img src="pic/bg-reverse_web.png" style="height: 40px; margin-top: -5px; padding-bottom: 3px" /></a>
+
+        </div>
+
+                    <div class="visible-xs mt10">
+            <form class="form-search content-search" action="/" method="post" id="search-block-form--3" accept-charset="UTF-8"><div><div>
+    <h2 class="element-invisible">Search form</h2>
+  <div class="input-group"><input title="Enter the terms you wish to search for." placeholder="Search" class="form-control form-text" type="text" id="edit-search-block-form--6" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+</button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions--3"><button class="element-invisible btn btn-primary form-submit" type="submit" id="edit-submit--3" name="op" value="Search">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-umJjL0ziR18bf4v3FBazFw0fkhIQ9TxRlml05JK6C8w" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>            </div>
+        
+        
+        <div class="collapse navbar-collapse" id="solidMenu">
+
+          <ul class="nav navbar-nav">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li class="visible-xs"><a href="#">KNOWLEDGE BASE</a></li>
+
+            <li class="dropdown dropdown-full-width-g hidden-xs" data-animation="fadeIn"> 
+
+              <a class="dropdown-toggle disabled" data-toggle="dropdown" href="#" data-title="Knowledge base" id="kbtoggle">Knowledge base <span class="caret"></span></a>
+                <div class="dropdown-menu mega no-border-radius">
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="bb-2px" style="border-bottom: none; margin-bottom: 0;"><strong><a style="background-color: white; padding: 3px 10px; display: block;" href="#">Browse all Knowledge Base topics&nbsp;&raquo;</a></strong></p>
+                  </div>
+                </div>
+
+                <div class="row">
+
+                  <div class="col-sm-6 col-md-4">
+
+                      <h5 class="bb-2px"><strong>Sustainable Materials</strong></h5>
+                      <ul>
+
+                        <li>
+                          <a href="#">Material Selection</a>
+                        </li>
+                        <li>
+                          <a href="#">Material Transparency</a>
+                        </li>
+                        <li>
+                          <a href="#">Material Health</a>
+                        </li>
+                        <li>
+                          <a href="#">Embodied Carbon</a>
+                        </li>
+                        <li>
+                          <a href="#">Waste Management</a>
+                        </li>
+                        <li>
+                          <a href="#">Product Reviews</a>
+                        </li>
+
+                      </ul>
+
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+
+                      <h5 class="bb-2px"><strong>Design Strategies</strong></h5>
+                      <ul>
+
+                        <li>
+                          <a href="#">Resilient Design</a>
+                        </li>
+                        <li>
+                          <a href="#">Electrification &amp; Decarbonization</a>
+                        </li>
+                        <li>
+                          <a href="#">Comfort</a>
+                        </li>
+                        <li>
+                          <a href="#">Wellness in Buildings</a>
+                        </li>
+                        <li>
+                          <a href="#">Life-Cycle Assessment</a>
+                        </li>
+                        <li>
+                          <a href="#">Net-Zero Energy &amp; Renewables</a>
+                        </li>
+                        <li>
+                          <a href="#">Biophilic Design</a>
+                        </li>
+
+                      </ul>
+
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+
+                      <h5 class="bb-2px"><strong>Building Science</strong></h5>
+                      <ul>
+
+                        <li>
+                          <a href="#">Site Assessment &amp; Design</a>
+                        </li>
+                        <li>
+                          <a href="#">Performance Modeling</a>
+                        </li>
+                        <li>
+                          <a href="#">Building Envelope</a>
+                        </li>
+                        <li>
+                          <a href="#">Moisture Management</a>
+                        </li>
+                        <li>
+                          <a href="#">Energy Efficiency</a>
+                        </li>
+                        <li>
+                          <a href="#">Water Efficiency</a>
+                        </li>
+                        <li>
+                          <a href="#">Indoor Air Quality</a>
+                        </li>
+                        <li>
+                          <a href="#">Heating &amp; Cooling</a>
+                        </li>
+                        <li>
+                          <a href="#">Lighting Design &amp; Daylighting</a>
+                        </li>
+                        <li>
+                          <a href="#">Software Tools for Architects</a>
+                        </li>
+
+                      </ul>
+
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+
+                      <h5 class="bb-2px"><strong>Buildings &amp; Project Types</strong></h5>
+                      <ul>
+
+                        <li>
+                          <a href="#">Case Studies</a>
+                        </li>
+                        <li>
+                          <a href="#">Existing Buildings</a>
+                        </li>
+                        <li>
+                          <a href="#">Sustainable Communities</a>
+                        </li>
+                        <li>
+                          <a href="#">Operations &amp; Maintenance</a>
+                        </li>
+
+                      </ul>
+
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+
+                      <h5 class="bb-2px"><strong>Design Process</strong></h5>
+                      <ul>
+
+                        <li>
+                          <a href="#">Integrative Process</a>
+                        </li>
+                        <li>
+                          <a href="#">The Big Picture</a>
+                        </li>
+                        <li>
+                          <a href="#">Social Equity</a>
+                        </li>
+                        <li>
+                          <a href="#">Post-Occupancy</a>
+                        </li>
+                        <li>
+                          <a href="#">Green Building Education</a>
+                        </li>
+
+                      </ul>
+
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+
+                      <h5 class="bb-2px"><strong>Codes &amp; Certifications</strong></h5>
+                      <ul>
+
+                        <li>
+                          <a href="#">Policies &amp; Programs</a>
+                        </li>
+                        <li>
+                          <a href="#">Living Building Challenge</a>
+                        </li>
+                        <li>
+                          <a href="#">LEED</a>
+                        </li>
+                        <li>
+                          <a href="#">WELL &amp; Fitwel</a>
+                        </li>
+                        <li>
+                          <a href="#">Codes</a>
+                        </li>
+                        <li>
+                          <a href="#">Other Ratings &amp; Standards</a>
+                        </li>
+
+                      </ul>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li><a href="about.html">About us</a></li>
+
+            <li><a href="pdt.html">Product guidance</a></li>
+
+            <li><a href="edu.html">Continuing education</a></li>
+
+            <li><a href="#">Peer Networks</a></li>
+
+            <li role="separator" class="divider visible-xs"></li>
+
+            <li class="visible-xs"><a href="#">Pricing</a></li>
+
+            <li class="visible-xs"><a href="#">Membership</a></li>
+
+            <li class="visible-xs"><a href="#">Webinars</a></li>
+
+            <li class="visible-xs"><a href="#">Exam Prep</a></li>
+
+            <li class="visible-xs"><a href="#">Reports</a></li>
+
+            <li class="visible-xs"><a href="#">Manufacturers</a></li>
+
+            <li class="visible-xs"><a href="#">Archive</a></li>
+
+            <li class="visible-xs"><a href="#">FAQs</a></li>
+
+            
+                            <li class="visible-xs">
+                <a data-target="#login-modal" data-toggle="modal" href="#"><strong>LOGIN</strong></a>
+              </li>
+            
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right hidden-xs">
+
+              <li id="nav-search" class="dropdown p-static margin-right-2 margin-0-sm" data-animation="fadeIn">
+
+                <a class="dropdown-toggle disabled" data-toggle="dropdown" href="#" data-title="Search"><span class="visible-xs-inline-block visible-md-inline-block visible-lg-inline-block visible-xl-inline-block pr10">Search </span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg></a>
+
+                 
+                </div>
+
+              </li>
+
+            </ul>
+
+        </div>
+
+      </div>
+
+  </nav>
+
+</div>
+
+
+<div class="container-fluid">
+
+<header role="banner" id="page-header">
+  
+    </header>
+
+</div>
+<div id="front">
+<div class="outer-container">
+<div class="main-container container-fluid">
+
+  
+        <div class="logos full-width-flush">
+      <div class="megapic">
+        <picture class="img-responsive"> 
+          <source media="(min-width:601px)" srcset="pic/LAS_1800.jpg" /> 
+          <source media="(min-width:1px)" srcset="pic/LAS_600.jpg" /> 
+          <img alt="" class="img-responsive" src="pic/LAS_1800.jpg" title="" />
+        </picture>
+        <div class="pictext">
+          <h1>High-performance buildings start with BuildingGreen</h1>
+          <h2><em>We provide the knowledge and networks to help your projects succeed</em></h2>
+          <a href="#" data-toggle="modal" data-target="#login-modal" class="btn btn-ghost">Log in to your member profile</a>
+        </div>
+        <div class="caption">
+          <em>Image: Lord Aeck Sargent in collaboration with The Miller Hull Partnership</em>
+        </div>
+      </div>
+     
+
+
+      <div class="container-fluid">
+        <h5 class="mt10 mb0 text-white">TRUSTED BY</h5>
+        <div class="firms mt05 mb05">
+          <div><img src="pic/brand.png"></div>
+          
+        </div>
+      </div>
+    </div>
+
+    <h2 class="h0 text-center">How can BuildingGreen help you?</h2>
+
+    <div class="site-feature">
+      <div class="row">
+        <div class="col-sm-6 col-md-5">
+          <a href="#">
+            <img src="pic/mask-corridor.jpg" class="img-responsive hidden-xs">
+            <img src="pic/mask-corridor-wide.jpg" class="img-responsive visible-xs">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-7">
+          <div class="feature-blurb">
+            <h2 class="h2 text-uppercase font-normal mt10">Stay up-to-date</h2>
+
+            <p><em>What&rsquo;s hot right now on BuildingGreen:</em></p>
+
+            <ul>
+              <li><strong>CEU Feature Article</strong> &ndash; <a href="#">Native Landscaping for Biodiversity</a></li>
+              <li><strong>News Analysis + Slideshow</strong> &ndash; <a href="#">Trauma-Informed Design: A New Social Equity Imperative</a></li>
+            </ul>
+
+            <h3><a href="#">See what&rsquo;s new&nbsp;&raquo;</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-feature">
+      <div class="row">
+        <div class="col-sm-6 col-md-5">
+          <a href="#">
+            <img src="pic/stairs.jpg" class="img-responsive hidden-xs">
+            <img src="pic/stairs-wide.jpg" class="img-responsive visible-xs">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-7">
+          <div class="feature-blurb">
+            <h2 class="h2 text-uppercase font-normal mt10">Boost Your Expertise</h2>
+            <p>BuildingGreen is the premier knowledge source for sustainable architecture and design.</p>
+            <h3><a href="#">Explore our full knowledge base&nbsp;&raquo;</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-feature">
+      <div class="row">
+        <div class="col-sm-6 col-md-5">
+          <a href="3">
+            <img src="pic/carpet.jpg" style="position: relative;" class="img-responsive hidden-xs">
+            <img src="pic/carpet-wide.jpg" style="position: relative;" class="img-responsive visible-xs">
+            <p class="small" style="position: absolute; bottom: 0; color: rgba(255,255,255,0.5); right: 2em;">Photo: Interface</p>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-7">
+          <div class="feature-blurb">
+            <h2 class="h2 text-uppercase font-normal mt10">Identify Green Products</h2>
+            <p>Our editors have prepared more than 100 concise guides to choosing green products.</p>
+            <h3><a href="#">Browse product guides&nbsp;&raquo;</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-feature">
+      <div class="row">
+        <div class="col-sm-6 col-md-5">
+          <a href="#">
+            <img src="pic/pencil.jpg" class="img-responsive hidden-xs">
+            <img src="pic/pencil-wide.jpg" class="img-responsive visible-xs">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-7">
+          <div class="feature-blurb">
+            <h2 class="h2 text-uppercase font-normal mt10">Maintain Your Credentials</h2>
+            <img src="pic/education-partners.png" class="img-responsive blurb-pic" style="max-height: 85px;">
+            <h3><a href="#">Start earning CEUs&nbsp;&raquo;</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-feature">
+      <div class="row">
+        <div class="col-sm-6 col-md-5">
+          <a href="#">
+            <img src="pic/summit.jpg" class="img-responsive hidden-xs">
+            <img src="pic/summit-wide.jpg" class="img-responsive visible-xs">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-7">
+          <div class="feature-blurb">
+            <h2 class="h2 text-uppercase font-normal mt10">Join a Peer Network</h2>
+            <p>Connect and exchange ideas with other sustainability leaders.</p>
+            <h3><a href="#">Learn more and apply&nbsp;&raquo;</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-feature">
+      <div class="row">
+        <div class="col-sm-6 col-md-5">
+          <a href="#">
+            <img src="pic/corridor.jpg" class="img-responsive hidden-xs">
+            <img src="pic/corridor-wide.jpg" class="img-responsive visible-xs">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-7">
+          <div class="feature-blurb">
+            <h2 class="h2 text-uppercase font-normal mt10">Hire a Consultant</h2>
+            <p>Bring BuildingGreen’s experts onto your team.</p>
+            <h3><a href="#">Find out how we can help&nbsp;&raquo;</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gradient-menu mt30">
+      <div class="row">
+        <div class="col-sm-9 col-lg-10">
+          <h2 class="text-white mt0">BuildingGreen is supported by members, not advertisers.</h2>
+          <p class="font-size-large text-white"><em>Our work is not supported by advertising, so our sole focus is on our audience. It’s no wonder that Rachel Bannon-Godfrey, Sustainability Discipline Leader at Stantec, says, <strong>“BuildingGreen helps me prioritize what information I need to know and where to find reliable answers. BuildingGreen is not just a reference point, but a community.”</strong></em></p>
+        </div>
+        <div class="col-sm-3 col-lg-2">
+          <img src="pic/B-Corp-white_300.png" class="img-responsive mt05" style="max-height: 300px;">
+        </div>
+      </div>
+    </div>
+
+    <div class="breathe magnify mt30">
+      <div class="row">
+        <div class="col-sm-3"><img src="https://www.buildinggreen.com/sites/default/files/spotlight/spotlight-carbon2.jpg" class="hidden-xs img-responsive border-dark"></div>
+        <div class="col-sm-9">
+          <h2 class="mt0">Don’t take our word for it—see for yourself</h2>
+          <p>Sign up for our mailing list and get a <strong>free</strong> copy of our recent PDF report, <strong><em>The Urgency of Embodied Carbon and What You Can Do About It</em></strong>.</p>
+          <p>You’ll see why the sustainability experts get their answers from BuildingGreen.</p>
+          <get-email show_disclaimer="false" button_label="Get the free report" redirect="free-report"></get-email>
+          <p id="ea"><b>Email Address</b></p>
+                <input type="text" id="email" class="email" required\>
+                    <p class="submit" style="color:white;padding-top: 2px;border: solid 1px #6a9834; border-radius: 6px; background-color: #6a9834;  width:190px; height:40px;" align="center">Get the free Report</p>
+        </div>
+      </div>
+    </div>      </div>
+</div>
+
+<footer class="footer container-fluid">
+  <div class="region region-footer">
+  <section id="block-bg-content-bg-footer-block" class="block block-bg-content clearfix">
+
+    
+<div class="row">
+  <div class="col-sm-8">
+
+      <a href="#"><img src="pic/2018-B-Corp-Logo_150h.png" class="img-responsive pull-left hidden-xs pr30 mb10 mt05" style=
+      "max-height: 75px;"></a>
+
+      <div style="overflow: hidden;">
+          <ul class="list-inline" style="margin-left: 0;">
+                              <li><a href="#">Contact us</a></li>
+              <li><a href="#">LEEDuser</a></li>
+              <li><a href="#">Jobs at BuildingGreen</a></li>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Change Cookie Settings</a></li>
+          </ul>
+
+          <p class="small">&copy; 2021 BuildingGreen, Inc. All rights reserved except where noted.</p>
+      </div>
+  </div>
+
+  
+
+</section>
+</div>
+</footer>
+</div>
+ <div class="region region-page-bottom">
+</div>
+<script src="https://www.buildinggreen.com/sites/default/files/js/js_6_RPYL29Mx0EM31uRa4YYb0NF6Q7ZUG5yilzj24wLIk.js"></script>
+<script src="https://www.buildinggreen.com/sites/default/files/js/js_VMWxpc_nIy5RQtsXIrqDL5I07fRIZu58KOlJz00LP5g.js"></script>
+<script src="https://www.buildinggreen.com/sites/default/files/js/js_jbbNve4SeW8ouHVrUGHWp0dWMH3-Hlgksay5UPMsoTw.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?hl=en" async="async" defer="defer"></script>
+<script>document.createElement( "picture" );</script>
+<script src="https://www.buildinggreen.com/sites/default/files/js/js_lPy2_qEqwt0I2T3fFf2fUqc1_adWz9EVkvo416w3yjQ.js"></script>
+<script src="https://www.buildinggreen.com/sites/default/files/js/js_NIYFQUbc2U2EtSW5JihFlDzoxL1vFaBHRxigU7-NNQk.js"></script>
+<script src="https://www.buildinggreen.com/sites/default/files/js/js_EmnVyaC7gQAjwydxYokClZ7LMgseWZfybDGktWCZ3Xw.js"></script>
+<script src="https://www.buildinggreen.com/sites/default/files/js/js__JuFmti1OZYyBBidIUJvoDOZg81ze1_8XkKpzZ5SPsY.js"></script>
+<script src="https://www.buildinggreen.com/sites/default/files/js/js_7Ukqb3ierdBEL0eowfOKzTkNu-Le97OPm-UqTS5NENU.js"></script>
+<script src="https://www.buildinggreen.com/sites/default/files/js/js_lcej-wnhkuKN7X2sAkXYDMoQiGnYWSLvXW93M0RAg4Y.js"></script>
+<script src="https://www.buildinggreen.com/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+<img style="display: none;" src="pic/bg-logo_web-large.png">
+<img style="display: none;" src="pic/bg-logo_square.png">
+</body>
+</html>
